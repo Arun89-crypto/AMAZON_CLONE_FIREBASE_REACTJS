@@ -1,0 +1,20 @@
+.checkoutProduct {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background: white;
+  margin: 5px;
+}
+.checkoutProduct__info {
+  padding-left: 10px;
+}
+.checkoutOut__rating {
+  display: flex;
+}
+.checkoutProduct__info > button {
+  margin-top: 20px;
+  padding: 10px;
+}
+.checkoutProduct__image {
+  max-width: 250px;
+}

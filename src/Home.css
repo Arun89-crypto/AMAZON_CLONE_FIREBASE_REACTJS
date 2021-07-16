@@ -1,0 +1,29 @@
+.home__image {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+.home__row {
+  display: flex;
+  background: white;
+  z-index: 1;
+  margin: 10px;
+}
+.products__section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 600px) {
+  .products__section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

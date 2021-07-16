@@ -1,0 +1,11 @@
+.subtotal__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  min-height: 200px;
+  padding: 0px 50px;
+}
+.subtotal__footer > button {
+  padding: 5px;
+}

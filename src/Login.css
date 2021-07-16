@@ -1,0 +1,14 @@
+.login__logo {
+  width: 200px;
+  object-fit: contain;
+  display: flex;
+}
+.login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  justify-content: center;
+  max-width: 300px;
+  padding: 50px;
+}
